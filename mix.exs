@@ -24,7 +24,7 @@ defmodule PasswordlessAuth.Mixfile do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      mod: {PasswordlessAuth, [:ex_twilio]},
+      mod: {PasswordlessAuth, []},
       extra_applications: [:logger]
     ]
   end
